@@ -10,6 +10,15 @@
 			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
 			crossorigin="anonymous"
 		/>
+		<link rel="stylesheet" href="./test.css" />
+		<style>
+			.redBox {
+				border: 1px dashed red;
+			}
+			.blackBox {
+				border: 1px solid black;
+			}
+		</style>
 	</head>
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -161,6 +170,59 @@
 		</div>
 		<!-- Form -->
 
+		<!-- Masai BootStrap Electives 1 Start-->
+		<br />
+		<br />
+
+		<!-- Basics -->
+		<div class="container-fluid blackBox">
+			<div class="row">
+				<div class="col redBox"><h1>Prashant</h1></div>
+				<div class="col redBox"><h1>Prashant</h1></div>
+				<div class="col redBox"><h1>Prashant</h1></div>
+				<div class="col redBox"><h1>Prashant</h1></div>
+			</div>
+		</div>
+		<!-- Basics -->
+		<br />
+		<br />
+		<!-- Display text -->
+		<div class="container-fluid">
+			<!-- <p class="display-1 fs-3">Display</p> -->
+			<h1 class="display-4">Display</h1>
+			<p class="lead">
+				<mark> Lorem ipsum</mark> dolor sit amet consectetur adipisicing elit. Blanditiis
+				modi maiores quis magni, quae voluptatibus.
+			</p>
+			<figure class="lh-sm text-center">
+				<blockquote class="blockquote">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis modi maiores
+					quis magni, quae voluptatibus.
+				</blockquote>
+				<figcaption>- Prashant SL</figcaption>
+			</figure>
+		</div>
+
+		<video width="400px" height="200px" controls>
+			<source
+				src="https://masai-course.s3.ap-south-1.amazonaws.com/material/videos/25692/ZSAmT2uId2pW7ytloZznDMa4W048fm6Y5Fp2Bkb7.mp4"
+			/>
+		</video>
+		<audio controls>
+			<source src="./funnythat.mp3" />
+		</audio>
+
+		<figure>
+			<img
+				src="https://media.geeksforgeeks.org/wp-content/uploads/20210307210540/image20210307210537.png"
+			/>
+			<figcaption>Image 1</figcaption>
+		</figure>
+		<!-- Display text -->
+		<br />
+		<br />
+		<!-- Masai BootStrap Electives 1 End-->
+
 		<!-- COLUMNS -->
 		<div class="row justify-content-center gap-5 bg-success">
 			<div
@@ -185,37 +247,5 @@
 			</div>
 		</div>
 		<!-- COLUMNS -->
-
-		<!-- task -->
-		<div class="container-fluid border border-3 pt-4">
-			<div class="row">
-				<div class="col-lg-6 col-12 border border-2 bg-secondary">
-					<div class="row">
-						<div class="col-12 top_div bg-warning">
-							<p>LEFT TOP</p>
-						</div>
-						<div class="col-12 top_div bg-info">
-							<p>LEFT BOTTOM</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- Right Div -->
-				<div class="col-lg-6 col-12 bg-primary">
-					<div class="row">
-						<div class="col-12 right_div bg-secondary">
-							<p>Right Top</p>
-						</div>
-						<div class="col-12 container-fluid row">
-							<div class="d-flex">
-								<p class="bg-success col-lg-6 col-12 m-0 p-0">RIGHT LEFT</p>
-								<p class="bg-danger col-lg-6 col-12 m-0 p-0">RIGHT RIGHT</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- task -->
 	</body>
 </html>
