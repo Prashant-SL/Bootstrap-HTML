@@ -1,3 +1,4 @@
 img {
-	filter: blur(10px);
+	filter: brightness(1);
+	/* filter: blur(1); */
 }
